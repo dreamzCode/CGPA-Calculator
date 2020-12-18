@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.top {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.headings {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: cyan;
+}
+
+.cgpa-value {
+    font-weight: 300;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.add {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
+
+.add-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.course-code {
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+    
+}
+
+.course-code { width: 400px};
+
+.course-code: focus { 
+    outline: none;
+    border: 1px solid #28B9B5;
+}
+
+.result,
+.credit-load {
+    
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 44px;
+    font-size: 18px;
+    color: inherit;
+    background-color: #fff;
+    margin-right: 10px;
+    font-weight: 300;
+    transition: border 0.3s;
+}
+
+.resultText {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.result {
+    color: blue;
+}
+
+.resultRed {
+    color: red;
+}
+
+.container {
+    width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.course-div {
+    
+    text-align: center;
+    width: 475px;
+    margin: 0 auto;
+    
+}
+
+.add-btn {
+
+    font-size: 18px;
+    background: none;
+    border: 3px solid;
+    border-color: dimgrey;
+    color: darkslategray;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.add-btn:active { transform: translateY(2px); }
+
+.icome__title { color: #28B9B5; }
+
+.item {
+    padding: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.item:first-child { border-top: 1px solid #e7e7e7; }
+.item:nth-child(even) { background-color: #f7f7f7; }
+
+.item__description {
+    float: left;
+}
+
+.item__value {
+    
+    transition: transform 0.3s;
+    color: #28B9B5;
+}
+
+.income .item__value{
+    color: #28B9B5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
